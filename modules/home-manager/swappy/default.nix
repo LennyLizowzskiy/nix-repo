@@ -32,7 +32,7 @@ in
     ];
 
     xdg.configHome = mkIf cfg.enable {
-      "swappy/config".text = generateConf cfg.settings;
+      "/swappy/config".text = generateConf cfg.settings;
     };
   };
 }

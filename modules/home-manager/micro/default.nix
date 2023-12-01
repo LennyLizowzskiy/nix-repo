@@ -20,7 +20,7 @@ in
   config = {
     xdg.configHome = mkIf cfg.enable (
       builtins.listToAttrs (forEach cfg.plugins (p:
-        { name = "micro/plug/${p.name}"; value = { source = p.out; }; }
+        { name = "/micro/plug/${p.name}"; value = { source = p.out; }; }
       ))
     );
   };
