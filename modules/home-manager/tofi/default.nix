@@ -6,7 +6,7 @@ let
   cfg = config.programs.tofi;
 
   generateNoHeadIni = (attrs: 
-    (generators.toINIWithGlobalSection { mkSectionName = (name: "# ${name}") } { globalSection = attrs; })
+    (generators.toINIWithGlobalSection { mkSectionName = (name: "# ${name}"); } { globalSection = attrs; })
   );
 in
 {
