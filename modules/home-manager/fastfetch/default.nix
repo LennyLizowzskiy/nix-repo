@@ -24,7 +24,7 @@ in
     ];
 
     xdg.configFile = mkIf cfg.enable {
-      "/fastfetch/config.jsonc".source = builtins.toJSON cfg.settings;
+      "fastfetch/config.jsonc".source = builtins.toJSON cfg.settings;
     };
   };
 }

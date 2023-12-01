@@ -39,7 +39,7 @@ in
       pkgs.tofi
     ];
 
-    xdg.configHome = mkIf cfg.enable {
+    xdg.configFile = mkIf cfg.enable {
       "tofi/config".text = generateNoHeadIni cfg.settings;
     };
   };

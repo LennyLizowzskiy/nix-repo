@@ -31,8 +31,8 @@ in
       pkgs.swappy
     ];
 
-    xdg.configHome = mkIf cfg.enable {
-      "/swappy/config".text = generateConf cfg.settings;
+    xdg.configFile = mkIf cfg.enable {
+      "swappy/config".text = generateConf cfg.settings;
     };
   };
 }

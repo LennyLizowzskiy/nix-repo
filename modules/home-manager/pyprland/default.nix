@@ -57,8 +57,8 @@ in
     };
     
 
-    xdg.configHome = mkIf cfg.enable {
-      "/hypr/pyprland.toml" = {
+    xdg.configFile = mkIf cfg.enable {
+      "hypr/pyprland.toml" = {
         source = tomlFormatter.generate "pyprland_config.toml" cfg.settings;
         onChange = ''
           ${pkgs.pyprland}/bin/pypr reload 
