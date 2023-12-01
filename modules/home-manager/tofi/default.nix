@@ -16,7 +16,7 @@ in
 
       settings = mkOption {
         type = types.attrs;
-        description = "Check https://github.com/philj56/tofi/blob/master/doc/config for info"
+        description = "Check https://github.com/philj56/tofi/blob/master/doc/config for info";
         default = { };
         example = {
           width = "100%"
