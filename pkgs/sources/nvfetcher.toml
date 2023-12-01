@@ -1,0 +1,192 @@
+[lite-xl-plugins]
+src.git = "https://github.com/lite-xl/lite-xl-plugins"
+fetch.github = "lite-xl/lite-xl-plugins"
+
+[lite-xl-colors]
+src.git = "https://github.com/lite-xl/lite-xl-colors"
+fetch.github = "lite-xl/lite-xl-colors"
+
+[lite-black]
+src.git = "https://git.sr.ht/~tmpod/black-lite"
+fetch.git = "https://git.sr.ht/~tmpod/black-lite"
+
+[lite-xl-ide]
+src.git = "https://github.com/adamharrison/lite-xl-ide"
+fetch.github = "adamharrison/lite-xl-ide"
+
+[lite-xl-code-plus]
+src.git = "https://github.com/chqs-git/code-plus"
+fetch.github = "chqs-git/code-plus"
+
+[lite-xl-console]
+src.git = "https://github.com/lite-xl/console"
+fetch.github = "lite-xl/console"
+
+[lite-xl-discord2]
+src.git = "https://github.com/vincens2005/lite-xl-discord2"
+fetch.github = "vincens2005/lite-xl-discord2"
+
+[litepresence]
+src.git = "https://github.com/TorchedSammy/litepresence"
+fetch.github = "TorchedSammy/litepresence"
+
+[endwise-lite-xl]
+src.git = "https://github.com/LolsonX/endwise-lite-xl"
+fetch.github = "LolsonX/endwise-lite-xl"
+
+[equationgrapher-lite-xl]
+src.git = "https://github.com/thacuber2a03/equationgrapher"
+fetch.github = "thacuber2a03/equationgrapher"
+
+[lite-xl-exterm]
+src.git = "https://github.com/ShadiestGoat/lite-xl-exterm"
+fetch.github = "ShadiestGoat/lite-xl-exterm"
+
+[lite-fallback-fonts]
+src.git = "https://github.com/takase1121/lite-fallback-fonts"
+fetch.github = "takase1121/lite-fallback-fonts"
+
+[lite-formatters]
+src.git = "https://github.com/vincens2005/lite-formatters"
+fetch.github = "vincens2005/lite-formatters"
+
+[lite-xl-gitblame]
+src.git = "https://github.com/juliardi/lite-xl-gitblame"
+fetch.github = "juliardi/lite-xl-gitblame"
+
+[lite-xl-gitdiff-highlight]
+src.git = "https://github.com/vincens2005/lite-xl-gitdiff-highlight"
+fetch.github = "vincens2005/lite-xl-gitdiff-highlight"
+
+[lite-linters]
+src.git = "https://github.com/drmargarido/linters"
+fetch.github = "drmargarido/linters"
+
+[lite-lintplus]
+src.git = "https://github.com/liquidev/lintplus"
+fetch.github = "liquidev/lintplus"
+
+[lite-xl-vibe]
+src.git = "https://github.com/eugenpt/lite-xl-vibe"
+fetch.github = "eugenpt/lite-xl-vibe"
+
+[lite-lorem]
+src.git = "https://github.com/sheetcoder/lorem"
+fetch.github = "sheetcoder/lorem"
+
+[lite-xl-lsp]
+src.git = "https://github.com/lite-xl/lite-xl-lsp"
+fetch.github = "lite-xl/lite-xl-lsp"
+
+[lite-xl-lsp-servers]
+src.git = "https://github.com/adamharrison/lite-xl-lsp-servers"
+fetch.github = "adamharrison/lite-xl-lsp-servers"
+
+[lite-xl-snippets]
+src.git = "https://github.com/vqns/lite-xl-snippets"
+fetch.github = "vqns/lite-xl-snippets"
+
+[lite-xl-lspkind]
+src.git = "https://github.com/TorchedSammy/lite-xl-lspkind"
+fetch.github = "TorchedSammy/lite-xl-lspkind"
+
+[lite-xl-threads]
+src.git = "https://github.com/jgmdev/lite-xl-threads"
+fetch.github = "jgmdev/lite-xl-threads"
+
+[lite-xl-scm]
+src.git = "https://github.com/lite-xl/lite-xl-scm"
+fetch.github = "lite-xl/lite-xl-scm"
+
+[lite-xl-widgets]
+src.git = "https://github.com/lite-xl/lite-xl-widgets"
+fetch.github = "lite-xl/lite-xl-widgets"
+
+[lite-xl-sortcss]
+src.git = "https://github.com/felixsanz/lite-xl-sortcss"
+fetch.github = "felixsanz/lite-xl-sortcss"
+
+[lite-xl-terminal]
+src.git = "https://github.com/adamharrison/lite-xl-terminal"
+fetch.github = "adamharrison/lite-xl-terminal"
+
+[lite-todotreeview]
+src.git = "https://github.com/drmargarido/TodoTreeView"
+fetch.github = "drmargarido/TodoTreeView"
+
+[lite-xl-treeview-extender]
+src.git = "https://github.com/juliardi/lite-xl-treeview-extender"
+fetch.github = "juliardi/lite-xl-treeview-extender"
+
+[lite-xl-language-containerfile]
+src.git = "https://github.com/FilBot3/lite-xl-language-containerfile"
+fetch.github = "FilBot3/lite-xl-language-containerfile"
+
+[lite-plugin-crystal]
+src.git = "https://github.com/Tamnac/lite-plugin-crystal"
+fetch.github = "Tamnac/lite-plugin-crystal"
+
+[lite-xl-env-syntax]
+src.git = "https://github.com/anthonyaxenov/lite-xl-env-syntax"
+fetch.github = "anthonyaxenov/lite-xl-env-syntax"
+
+[lite-xl-ignore-syntax]
+src.git = "https://github.com/anthonyaxenov/lite-xl-ignore-syntax"
+fetch.github = "anthonyaxenov/lite-xl-ignore-syntax"
+
+[lite-whitehole-plugins]
+src.git = "https://github.com/whiteh0le/lite-plugins"
+fetch.github = "whiteh0le/lite-plugins"
+
+[lite-plugin-pony]
+src.git = "https://github.com/MrAnyx/lite-plugin-pony"
+fetch.github = "MrAnyx/lite-plugin-pony"
+
+[micro-updated-plugins]
+src.git = "https://github.com/micro-editor/updated-plugins"
+fetch.github = "micro-editor/updated-plugins"
+
+[micro-jabbalaci-plugins]
+src.git = "https://github.com/jabbalaci/micro-plugins"
+fetch.github = "jabbalaci/micro-plugins"
+
+[micro-X_Ryl669-plugins] # only for filemanager
+src.git = "https://github.com/X-Ryl669/updated-plugins"
+src.branch = "better_ux"
+fetch.github = "X-Ryl669/updated-plugins"
+
+[micro-selto-plugin]
+src.git = "https://github.com/PawelMTRK/micro-selto-plugin"
+fetch.github = "PawelMTRK/micro-selto-plugin"
+
+[micro-align-plugin]
+src.git = "https://github.com/mosskjohnson/align-plugin"
+fetch.github = "mosskjohnson/align-plugin"
+
+[micro-capitalizer-plugin]
+src.git = "https://github.com/CodeGiorgino/capitalizer"
+fetch.github = "CodeGiorgino/capitalizer"
+
+[micro-gz-plugin]
+src.git = "https://github.com/dzmanto/gzplugin4micro"
+fetch.github = "dzmanto/gzplugin4micro"
+
+[micro-tnsl-plugin]
+src.git = "https://github.com/CircleShift/tnsl-micro-plugin"
+fetch.github = "CircleShift/tnsl-micro-plugin"
+
+[micro-cheat-plugin]
+src.git = "https://github.com/terokarvinen/micro-cheat"
+fetch.github = "terokarvinen/micro-cheat"
+
+[micro-palettero-plugin]
+src.git = "https://github.com/terokarvinen/palettero"
+fetch.github = "terokarvinen/palettero"
+
+[micro-acme-plugin]
+src.git = "https://github.com/xxuejie/micro-acme"
+fetch.github = "xxuejie/micro-acme"
+
+[micro-nelua-plugin]
+src.git = "https://github.com/leap0x7b/micro-nelua-plugin"
+fetch.github = "leap0x7b/micro-nelua-plugin"

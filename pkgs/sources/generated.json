@@ -1,0 +1,961 @@
+{
+    "endwise-lite-xl": {
+        "cargoLocks": null,
+        "date": "2023-09-26",
+        "extract": null,
+        "name": "endwise-lite-xl",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "LolsonX",
+            "repo": "endwise-lite-xl",
+            "rev": "b3d7576edfe87cf7fe4af923c9a591250744760e",
+            "sha256": "sha256-0y/SStBFNv6h5iAqTpJFkIp02FcvWnQHSjoY8TygA1c=",
+            "type": "github"
+        },
+        "version": "b3d7576edfe87cf7fe4af923c9a591250744760e"
+    },
+    "equationgrapher-lite-xl": {
+        "cargoLocks": null,
+        "date": "2022-09-15",
+        "extract": null,
+        "name": "equationgrapher-lite-xl",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "thacuber2a03",
+            "repo": "equationgrapher",
+            "rev": "bd7056b5d4a6f6b98365e1a5e3e78e29ed843d13",
+            "sha256": "sha256-BXktjPhk1z1AUxdP75VIGI0k1rk/0LSiWINJ7T7m1SU=",
+            "type": "github"
+        },
+        "version": "bd7056b5d4a6f6b98365e1a5e3e78e29ed843d13"
+    },
+    "lite-black": {
+        "cargoLocks": null,
+        "date": "2021-03-07",
+        "extract": null,
+        "name": "lite-black",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "2a1ab1b703f954edb39efb73e72b44c0d18b30a2",
+            "sha256": "sha256-Oxmxe+MquqXOzZMdNZwnf2vFnYYI2u8bp/Hhk+fCh0s=",
+            "type": "git",
+            "url": "https://git.sr.ht/~tmpod/black-lite"
+        },
+        "version": "2a1ab1b703f954edb39efb73e72b44c0d18b30a2"
+    },
+    "lite-fallback-fonts": {
+        "cargoLocks": null,
+        "date": "2021-02-17",
+        "extract": null,
+        "name": "lite-fallback-fonts",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "takase1121",
+            "repo": "lite-fallback-fonts",
+            "rev": "281cafc014f7931f041046f76496797695678bb4",
+            "sha256": "sha256-zkgysv+pat+FjMmubb573gsQ3PLb+Y9oM81bH45cxwA=",
+            "type": "github"
+        },
+        "version": "281cafc014f7931f041046f76496797695678bb4"
+    },
+    "lite-formatters": {
+        "cargoLocks": null,
+        "date": "2022-11-07",
+        "extract": null,
+        "name": "lite-formatters",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vincens2005",
+            "repo": "lite-formatters",
+            "rev": "7e017080a967c01d437e484247a90c1ff52e8ef8",
+            "sha256": "sha256-ag3pKZkN01PRLEYg2K7FF4UdcZtXJyCETqSNeY6G+vU=",
+            "type": "github"
+        },
+        "version": "7e017080a967c01d437e484247a90c1ff52e8ef8"
+    },
+    "lite-linters": {
+        "cargoLocks": null,
+        "date": "2021-10-03",
+        "extract": null,
+        "name": "lite-linters",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "drmargarido",
+            "repo": "linters",
+            "rev": "eb1611eaade6e5328df5172bd3f759d853c33a31",
+            "sha256": "sha256-E9pRsp04rZSAZy7UMB3OK34Mo0yz+TPfZFMnoxoKH64=",
+            "type": "github"
+        },
+        "version": "eb1611eaade6e5328df5172bd3f759d853c33a31"
+    },
+    "lite-lintplus": {
+        "cargoLocks": null,
+        "date": "2023-08-07",
+        "extract": null,
+        "name": "lite-lintplus",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "liquidev",
+            "repo": "lintplus",
+            "rev": "56d229abb6d73519e356bc1aa2dac85f4292e2da",
+            "sha256": "sha256-CRfv6eFY4dZ9J937NHK+HE+e7fLkCH+cE6MQgn2OxNg=",
+            "type": "github"
+        },
+        "version": "56d229abb6d73519e356bc1aa2dac85f4292e2da"
+    },
+    "lite-lorem": {
+        "cargoLocks": null,
+        "date": "2022-08-15",
+        "extract": null,
+        "name": "lite-lorem",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "sheetcoder",
+            "repo": "lorem",
+            "rev": "b2da386519850d6f91ef67097e50141b3b11a90e",
+            "sha256": "sha256-oX0trNEsN+5+4QU4L8rVJszt3/50zZOChMAMJO9IXm8=",
+            "type": "github"
+        },
+        "version": "b2da386519850d6f91ef67097e50141b3b11a90e"
+    },
+    "lite-plugin-crystal": {
+        "cargoLocks": null,
+        "date": "2023-02-12",
+        "extract": null,
+        "name": "lite-plugin-crystal",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "Tamnac",
+            "repo": "lite-plugin-crystal",
+            "rev": "9514ec08d0bd3aa5d3bcbf8307c4bf5a46ef1a94",
+            "sha256": "sha256-JLkk4z2FaDDyZhiCz9AkQ0Ac7dltDgfB0yEqIu6/h5U=",
+            "type": "github"
+        },
+        "version": "9514ec08d0bd3aa5d3bcbf8307c4bf5a46ef1a94"
+    },
+    "lite-plugin-pony": {
+        "cargoLocks": null,
+        "date": "2021-08-30",
+        "extract": null,
+        "name": "lite-plugin-pony",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "MrAnyx",
+            "repo": "lite-plugin-pony",
+            "rev": "34d9ec673eaa6c409bcef0febaa0a36cc3acdf4e",
+            "sha256": "sha256-v33M1pYIh3VNzzcCYBpQ3BAu+pFJAytDd1VssEqOU1Q=",
+            "type": "github"
+        },
+        "version": "34d9ec673eaa6c409bcef0febaa0a36cc3acdf4e"
+    },
+    "lite-todotreeview": {
+        "cargoLocks": null,
+        "date": "2023-10-30",
+        "extract": null,
+        "name": "lite-todotreeview",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "drmargarido",
+            "repo": "TodoTreeView",
+            "rev": "28995b7e6292980ce7ce73b372d3cdd4dac80e7f",
+            "sha256": "sha256-nta6u7K5JjnbwI1VgrI9+4P3Xud1XekYfemOcOqPBoo=",
+            "type": "github"
+        },
+        "version": "28995b7e6292980ce7ce73b372d3cdd4dac80e7f"
+    },
+    "lite-whitehole-plugins": {
+        "cargoLocks": null,
+        "date": "2020-08-18",
+        "extract": null,
+        "name": "lite-whitehole-plugins",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "whiteh0le",
+            "repo": "lite-plugins",
+            "rev": "8ad4bf27354ad02b9179b4a5f26f768e2208ace2",
+            "sha256": "sha256-d2oLmniqMVjme77OSyXbbtywmo+bIyHFn4SK1252KeY=",
+            "type": "github"
+        },
+        "version": "8ad4bf27354ad02b9179b4a5f26f768e2208ace2"
+    },
+    "lite-xl-code-plus": {
+        "cargoLocks": null,
+        "date": "2023-08-02",
+        "extract": null,
+        "name": "lite-xl-code-plus",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "chqs-git",
+            "repo": "code-plus",
+            "rev": "4ed5a06158499fe1404c44ad1c2e6ed91ba34cee",
+            "sha256": "sha256-qaBZACASC3LnATrOQwjHOBV3BZPaKuQ8ZM7m+JewnEY=",
+            "type": "github"
+        },
+        "version": "4ed5a06158499fe1404c44ad1c2e6ed91ba34cee"
+    },
+    "lite-xl-colors": {
+        "cargoLocks": null,
+        "date": "2023-11-27",
+        "extract": null,
+        "name": "lite-xl-colors",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "lite-xl-colors",
+            "rev": "91e904fefd2c1b2b6e0481626713767777a7725c",
+            "sha256": "sha256-pZWVP+0xnFM9r7LsoRLzLtcoDXwBm84cNK2+mcmicLI=",
+            "type": "github"
+        },
+        "version": "91e904fefd2c1b2b6e0481626713767777a7725c"
+    },
+    "lite-xl-console": {
+        "cargoLocks": null,
+        "date": "2022-10-13",
+        "extract": null,
+        "name": "lite-xl-console",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "console",
+            "rev": "08c3f5e1483627c3ae688ce5a99008e823357f2c",
+            "sha256": "sha256-ae/QIht4cwkM7025PXWtqtUVmfna35Y1UUd8TYxSlug=",
+            "type": "github"
+        },
+        "version": "08c3f5e1483627c3ae688ce5a99008e823357f2c"
+    },
+    "lite-xl-discord2": {
+        "cargoLocks": null,
+        "date": "2023-10-09",
+        "extract": null,
+        "name": "lite-xl-discord2",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vincens2005",
+            "repo": "lite-xl-discord2",
+            "rev": "4fd5638f112ac985d0816270acd504c61d043627",
+            "sha256": "sha256-EJj65V/sfLWjs5MQMPrqDWl1D4cZTKlCLfyOhFAQJwk=",
+            "type": "github"
+        },
+        "version": "4fd5638f112ac985d0816270acd504c61d043627"
+    },
+    "lite-xl-env-syntax": {
+        "cargoLocks": null,
+        "date": "2022-11-03",
+        "extract": null,
+        "name": "lite-xl-env-syntax",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "anthonyaxenov",
+            "repo": "lite-xl-env-syntax",
+            "rev": "89a4274af6a786963930d7a8fb542dfe61daa801",
+            "sha256": "sha256-FZhbTs8sgxo/0wQyzVBndtpuYtDnKUPvn7BdEz7lawQ=",
+            "type": "github"
+        },
+        "version": "89a4274af6a786963930d7a8fb542dfe61daa801"
+    },
+    "lite-xl-exterm": {
+        "cargoLocks": null,
+        "date": "2022-04-28",
+        "extract": null,
+        "name": "lite-xl-exterm",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "ShadiestGoat",
+            "repo": "lite-xl-exterm",
+            "rev": "aca8827fc1af831890cffd3dd122debac72429c6",
+            "sha256": "sha256-/FTh5j39Jijd2UqqA98Dy8PQNnls8vcW6q5G60rvvOg=",
+            "type": "github"
+        },
+        "version": "aca8827fc1af831890cffd3dd122debac72429c6"
+    },
+    "lite-xl-gitblame": {
+        "cargoLocks": null,
+        "date": "2023-02-22",
+        "extract": null,
+        "name": "lite-xl-gitblame",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juliardi",
+            "repo": "lite-xl-gitblame",
+            "rev": "0395fed18d3a779bc1eae26130f00a2eb23638ad",
+            "sha256": "sha256-4K0Tkitzwedg6lhYTeSEuc66ONRQkwe/jzeI3G4Xu/U=",
+            "type": "github"
+        },
+        "version": "0395fed18d3a779bc1eae26130f00a2eb23638ad"
+    },
+    "lite-xl-gitdiff-highlight": {
+        "cargoLocks": null,
+        "date": "2023-07-25",
+        "extract": null,
+        "name": "lite-xl-gitdiff-highlight",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vincens2005",
+            "repo": "lite-xl-gitdiff-highlight",
+            "rev": "f0e02b6a7299acbeb4a5f137b26830a6cca96cc8",
+            "sha256": "sha256-qeBy4+7l+YM0buAWYQZOvhco6f3kwKuQxuh1dUBXX74=",
+            "type": "github"
+        },
+        "version": "f0e02b6a7299acbeb4a5f137b26830a6cca96cc8"
+    },
+    "lite-xl-ide": {
+        "cargoLocks": null,
+        "date": "2023-11-20",
+        "extract": null,
+        "name": "lite-xl-ide",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "adamharrison",
+            "repo": "lite-xl-ide",
+            "rev": "574bb05c5e5337bd439a4ab9d389eb6d125c9391",
+            "sha256": "sha256-loxUT7QWabeVTBMJgyjCOdRdUnRxF0S6i6zn0BFo3g8=",
+            "type": "github"
+        },
+        "version": "574bb05c5e5337bd439a4ab9d389eb6d125c9391"
+    },
+    "lite-xl-ignore-syntax": {
+        "cargoLocks": null,
+        "date": "2022-11-03",
+        "extract": null,
+        "name": "lite-xl-ignore-syntax",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "anthonyaxenov",
+            "repo": "lite-xl-ignore-syntax",
+            "rev": "3a9a5e0ae03b82358473da5d1c6012944d65ea95",
+            "sha256": "sha256-thya7IUw8EnTe8v6PYyA2lE2v9nZ42xOx0ZIYUd7fVs=",
+            "type": "github"
+        },
+        "version": "3a9a5e0ae03b82358473da5d1c6012944d65ea95"
+    },
+    "lite-xl-language-containerfile": {
+        "cargoLocks": null,
+        "date": "2023-10-17",
+        "extract": null,
+        "name": "lite-xl-language-containerfile",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "FilBot3",
+            "repo": "lite-xl-language-containerfile",
+            "rev": "ae4eddc3f3fa1a0db56344b3b6db0ec0f2283880",
+            "sha256": "sha256-YbwF5O2QrSrBeYzrkMCgIVIY83ULpKM8CygoiigUJj8=",
+            "type": "github"
+        },
+        "version": "ae4eddc3f3fa1a0db56344b3b6db0ec0f2283880"
+    },
+    "lite-xl-lsp": {
+        "cargoLocks": null,
+        "date": "2023-11-11",
+        "extract": null,
+        "name": "lite-xl-lsp",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "lite-xl-lsp",
+            "rev": "87354d31dca74142c775c21e914f378b8ec90b09",
+            "sha256": "sha256-xW6weMHU5kkT0z2s13leUUqMLYJYI3OsNl5Ggc1P/mk=",
+            "type": "github"
+        },
+        "version": "87354d31dca74142c775c21e914f378b8ec90b09"
+    },
+    "lite-xl-lsp-servers": {
+        "cargoLocks": null,
+        "date": "2023-10-13",
+        "extract": null,
+        "name": "lite-xl-lsp-servers",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "adamharrison",
+            "repo": "lite-xl-lsp-servers",
+            "rev": "58e1192b7abe9cff60c59b1c8b098fde88f03ecc",
+            "sha256": "sha256-/XDzG6sk+N5bkhtIR8EULIvRRAGB3Vf6S5JomkQEtmc=",
+            "type": "github"
+        },
+        "version": "58e1192b7abe9cff60c59b1c8b098fde88f03ecc"
+    },
+    "lite-xl-lspkind": {
+        "cargoLocks": null,
+        "date": "2023-08-28",
+        "extract": null,
+        "name": "lite-xl-lspkind",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "TorchedSammy",
+            "repo": "lite-xl-lspkind",
+            "rev": "8fb5bb0947c96f04ab0430fc02bf081946bfb92e",
+            "sha256": "sha256-F3zN7ge9VhlXjWjYd7ljXSVooHuhn1528FdGPnQgEPs=",
+            "type": "github"
+        },
+        "version": "8fb5bb0947c96f04ab0430fc02bf081946bfb92e"
+    },
+    "lite-xl-plugins": {
+        "cargoLocks": null,
+        "date": "2023-11-23",
+        "extract": null,
+        "name": "lite-xl-plugins",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "lite-xl-plugins",
+            "rev": "26154da92ddf9a24700d8182cf952e91792cd654",
+            "sha256": "sha256-gCjdOldau0nvypzHGD0kGhlTxVL5l9EIiq+6lQm4ROA=",
+            "type": "github"
+        },
+        "version": "26154da92ddf9a24700d8182cf952e91792cd654"
+    },
+    "lite-xl-scm": {
+        "cargoLocks": null,
+        "date": "2023-05-16",
+        "extract": null,
+        "name": "lite-xl-scm",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "lite-xl-scm",
+            "rev": "1bb4cfce305ea17769c95672e0a441e7b6e66c6f",
+            "sha256": "sha256-acIa7NY/LdFyiVF8sh5Fj+tKquJhexUM+n26opCoURo=",
+            "type": "github"
+        },
+        "version": "1bb4cfce305ea17769c95672e0a441e7b6e66c6f"
+    },
+    "lite-xl-snippets": {
+        "cargoLocks": null,
+        "date": "2023-10-10",
+        "extract": null,
+        "name": "lite-xl-snippets",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "vqns",
+            "repo": "lite-xl-snippets",
+            "rev": "1f0bba02bb3af6df9cb2ce72526851b427caf143",
+            "sha256": "sha256-XpjDd/B13Kfhyfhezy/OFjAEGySgBQbs62AEDrNaGUo=",
+            "type": "github"
+        },
+        "version": "1f0bba02bb3af6df9cb2ce72526851b427caf143"
+    },
+    "lite-xl-sortcss": {
+        "cargoLocks": null,
+        "date": "2023-11-15",
+        "extract": null,
+        "name": "lite-xl-sortcss",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "felixsanz",
+            "repo": "lite-xl-sortcss",
+            "rev": "ee4552148b38663e24dedcf4bc80ba8221dd54e0",
+            "sha256": "sha256-uZroMCyIXm42bxTc3MCb3CCthDtws+YvdipR8YUTt3M=",
+            "type": "github"
+        },
+        "version": "ee4552148b38663e24dedcf4bc80ba8221dd54e0"
+    },
+    "lite-xl-terminal": {
+        "cargoLocks": null,
+        "date": "2023-11-20",
+        "extract": null,
+        "name": "lite-xl-terminal",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "adamharrison",
+            "repo": "lite-xl-terminal",
+            "rev": "394b577caa1491d2a8fb92b1b4acd93b2feb6b9a",
+            "sha256": "sha256-boju9bnRgy2qdmJnNa83Nf1B04Q7duMRgo8SYjvebQM=",
+            "type": "github"
+        },
+        "version": "394b577caa1491d2a8fb92b1b4acd93b2feb6b9a"
+    },
+    "lite-xl-threads": {
+        "cargoLocks": null,
+        "date": "2023-01-19",
+        "extract": null,
+        "name": "lite-xl-threads",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "jgmdev",
+            "repo": "lite-xl-threads",
+            "rev": "c182db7ad82d6ca4b1a8840609d093e6d3cbc89a",
+            "sha256": "sha256-iAIJhNe/oli+DBZSGJLOCcRpOtmuWeV+unq4U2PK8a4=",
+            "type": "github"
+        },
+        "version": "c182db7ad82d6ca4b1a8840609d093e6d3cbc89a"
+    },
+    "lite-xl-treeview-extender": {
+        "cargoLocks": null,
+        "date": "2023-05-16",
+        "extract": null,
+        "name": "lite-xl-treeview-extender",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "juliardi",
+            "repo": "lite-xl-treeview-extender",
+            "rev": "c6583c3b7f726b08f98c1282d03408facd4cbc91",
+            "sha256": "sha256-/HJAJTQeEKB5n8j05wkWaqnvitMFBT9R9fhbQWTIp4g=",
+            "type": "github"
+        },
+        "version": "c6583c3b7f726b08f98c1282d03408facd4cbc91"
+    },
+    "lite-xl-vibe": {
+        "cargoLocks": null,
+        "date": "2023-10-31",
+        "extract": null,
+        "name": "lite-xl-vibe",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "eugenpt",
+            "repo": "lite-xl-vibe",
+            "rev": "5b5579ab5efe9388c495d5b8baa6cd10b2db53ac",
+            "sha256": "sha256-JSTYmfiy0BeBCVXxOLkXf9SaxPTWrsAam2ZQKn0hk4M=",
+            "type": "github"
+        },
+        "version": "5b5579ab5efe9388c495d5b8baa6cd10b2db53ac"
+    },
+    "lite-xl-widgets": {
+        "cargoLocks": null,
+        "date": "2023-05-06",
+        "extract": null,
+        "name": "lite-xl-widgets",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "lite-xl",
+            "repo": "lite-xl-widgets",
+            "rev": "b5e6e212c0516ec7b55f57c7efcfda9d791cdb0d",
+            "sha256": "sha256-166amTxN8AsYgIhWYDwAhvefnN6w2OtRg9/8fu1TDqM=",
+            "type": "github"
+        },
+        "version": "b5e6e212c0516ec7b55f57c7efcfda9d791cdb0d"
+    },
+    "litepresence": {
+        "cargoLocks": null,
+        "date": "2023-10-05",
+        "extract": null,
+        "name": "litepresence",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "TorchedSammy",
+            "repo": "litepresence",
+            "rev": "f90499d05c10ed5ca1ea776b639c3292e32b5d9d",
+            "sha256": "sha256-mw8/X8zavpWJRlW6UoLaD7oOHr2ctRsoU5YF2KCbtvA=",
+            "type": "github"
+        },
+        "version": "f90499d05c10ed5ca1ea776b639c3292e32b5d9d"
+    },
+    "micro-X_Ryl669-plugins": {
+        "cargoLocks": null,
+        "date": "2023-09-15",
+        "extract": null,
+        "name": "micro-X_Ryl669-plugins",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "X-Ryl669",
+            "repo": "updated-plugins",
+            "rev": "c0fa9673eeb24c50b57cdb2fa00b86f3a1db5c40",
+            "sha256": "sha256-dTHFe0a+KHVHMRekeA+bN9pvWOpix9taQjenqIB+i48=",
+            "type": "github"
+        },
+        "version": "c0fa9673eeb24c50b57cdb2fa00b86f3a1db5c40"
+    },
+    "micro-acme-plugin": {
+        "cargoLocks": null,
+        "date": "2023-05-06",
+        "extract": null,
+        "name": "micro-acme-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "xxuejie",
+            "repo": "micro-acme",
+            "rev": "d0e3bfcf4e77fbb38a586216a2fa5cc958c66649",
+            "sha256": "sha256-ZrrAuFs0Bddn8nJIzg4O/vwiiqzWs7Cl8oQ7h8kE1D8=",
+            "type": "github"
+        },
+        "version": "d0e3bfcf4e77fbb38a586216a2fa5cc958c66649"
+    },
+    "micro-align-plugin": {
+        "cargoLocks": null,
+        "date": "2023-09-26",
+        "extract": null,
+        "name": "micro-align-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "mosskjohnson",
+            "repo": "align-plugin",
+            "rev": "112a2985859195c3053fe6811eaa0306eb2e9d54",
+            "sha256": "sha256-Ci2tBmDxG9KBQ3GMRMH8U8EZICX+aMQcVTspwAsBsJQ=",
+            "type": "github"
+        },
+        "version": "112a2985859195c3053fe6811eaa0306eb2e9d54"
+    },
+    "micro-capitalizer-plugin": {
+        "cargoLocks": null,
+        "date": "2023-11-15",
+        "extract": null,
+        "name": "micro-capitalizer-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "CodeGiorgino",
+            "repo": "capitalizer",
+            "rev": "dccc11d5c4b5c69726bcb6d346734fd4e56474c8",
+            "sha256": "sha256-UQmzOa7W4Bm5VwmQ00Io+d0qLSW2KupXCWIFVM6UFGA=",
+            "type": "github"
+        },
+        "version": "dccc11d5c4b5c69726bcb6d346734fd4e56474c8"
+    },
+    "micro-cheat-plugin": {
+        "cargoLocks": null,
+        "date": "2022-11-07",
+        "extract": null,
+        "name": "micro-cheat-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "terokarvinen",
+            "repo": "micro-cheat",
+            "rev": "7af18b97533cb654be4a7bf6940cc365eea63cbb",
+            "sha256": "sha256-WyyRXtIa/S8FfSerVC/Lcfeh1PYiC3Frep2215rDrvs=",
+            "type": "github"
+        },
+        "version": "7af18b97533cb654be4a7bf6940cc365eea63cbb"
+    },
+    "micro-gz-plugin": {
+        "cargoLocks": null,
+        "date": "2023-11-24",
+        "extract": null,
+        "name": "micro-gz-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "dzmanto",
+            "repo": "gzplugin4micro",
+            "rev": "d97b219ca0ea5615f207d1eafeabcf809559c6c0",
+            "sha256": "sha256-LwA7tj/SYI+ui4jfad8DUeD1xfubYDD5SiizHaoROLA=",
+            "type": "github"
+        },
+        "version": "d97b219ca0ea5615f207d1eafeabcf809559c6c0"
+    },
+    "micro-jabbalaci-plugins": {
+        "cargoLocks": null,
+        "date": "2023-11-14",
+        "extract": null,
+        "name": "micro-jabbalaci-plugins",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "jabbalaci",
+            "repo": "micro-plugins",
+            "rev": "4a6964eccb3104920f540d99e0ea7b2f64a1cbad",
+            "sha256": "sha256-IUx1iD0Mwfc/wciTmbZq6y5iClrUffQo9ZXxzcNwjn8=",
+            "type": "github"
+        },
+        "version": "4a6964eccb3104920f540d99e0ea7b2f64a1cbad"
+    },
+    "micro-nelua-plugin": {
+        "cargoLocks": null,
+        "date": "2021-08-31",
+        "extract": null,
+        "name": "micro-nelua-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "leap0x7b",
+            "repo": "micro-nelua-plugin",
+            "rev": "8803759a61bf179caee8a70ffb738cd4e54bb780",
+            "sha256": "sha256-xu+/oZiElOovqyACIeWMZzomUgy7k3jFbY20ZVntRlM=",
+            "type": "github"
+        },
+        "version": "8803759a61bf179caee8a70ffb738cd4e54bb780"
+    },
+    "micro-palettero-plugin": {
+        "cargoLocks": null,
+        "date": "2023-02-25",
+        "extract": null,
+        "name": "micro-palettero-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "terokarvinen",
+            "repo": "palettero",
+            "rev": "738ccc81110e424760d5e2f99c22729c63726907",
+            "sha256": "sha256-dRLYmJC38P2pHPY/PdH8Q1zMWCENIAhBadxD/DlansE=",
+            "type": "github"
+        },
+        "version": "738ccc81110e424760d5e2f99c22729c63726907"
+    },
+    "micro-selto-plugin": {
+        "cargoLocks": null,
+        "date": "2023-10-01",
+        "extract": null,
+        "name": "micro-selto-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "PawelMTRK",
+            "repo": "micro-selto-plugin",
+            "rev": "9c35cda3dd7a92824990a2166eb0b65d8c6ba460",
+            "sha256": "sha256-gOiRaq2wU2JYbShXNSXFJzAnbR7aHKE3TAP0rndj3e0=",
+            "type": "github"
+        },
+        "version": "9c35cda3dd7a92824990a2166eb0b65d8c6ba460"
+    },
+    "micro-tnsl-plugin": {
+        "cargoLocks": null,
+        "date": "2022-12-07",
+        "extract": null,
+        "name": "micro-tnsl-plugin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "CircleShift",
+            "repo": "tnsl-micro-plugin",
+            "rev": "6de9ada801161aa8271840cf7f0d3525d96c19fb",
+            "sha256": "sha256-D+WzS8Dl04i8K4nXvIDZbAMKPVQZsW6XpbBhWslt2IE=",
+            "type": "github"
+        },
+        "version": "6de9ada801161aa8271840cf7f0d3525d96c19fb"
+    },
+    "micro-updated-plugins": {
+        "cargoLocks": null,
+        "date": "2023-05-15",
+        "extract": null,
+        "name": "micro-updated-plugins",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "micro-editor",
+            "repo": "updated-plugins",
+            "rev": "216ec3adaf3adec78665614402ece56cf60ae713",
+            "sha256": "sha256-bYM+ZOxCbWDuN6/iWzRLxGrQr24Pe+WETRa9cXK076A=",
+            "type": "github"
+        },
+        "version": "216ec3adaf3adec78665614402ece56cf60ae713"
+    }
+}
