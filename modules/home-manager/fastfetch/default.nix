@@ -10,7 +10,7 @@ in
     programs.fastfetch = {
       enable = mkEnableOption "fastfetch - quick system information fetcher";
     
-      settings = {
+      settings = mkOption {
         type = types.attrs;
         description = "Check https://github.com/fastfetch-cli/fastfetch/wiki/Configuration for info";
         default = { };
