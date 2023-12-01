@@ -22,15 +22,15 @@
       homeManagerModules = import ./modules/home-manager;
       nixosModules = import ./modules/nixos;
 
-      mkDefaultModulesOption = (mods:
+      mkDefaultModules = (mods:
         { default = { imports = builtins.attrValues mods; }; }
       );
     in
     {
       overlays = import ./overlays;
 
-      homeManagerModules = homeManagerModules // (mkDefaultModulesOption homeManagerModules);
-      nixosModules = nixosModules // (mkDefaultModulesOption nixosModules);
+      homeManagerModules = homeManagerModules // (mkDefaultModules homeManagerModules);
+      nixosModules = nixosModules // (mkDefaultModules nixosModules);
 
       legacyPackages = forAllSystems (system: import ./pkgs {
         pkgs = import nixpkgs { inherit system; };
