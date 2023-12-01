@@ -19,12 +19,11 @@
       ];
       forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f system);
 
-      homeManagerModules = import ./modules/home-manager {};
-      nixosModules = import ./modules/nixos {};
+      homeManagerModules = import ./modules/home-manager;
+      nixosModules = import ./modules/nixos;
 
       mkDefaultModulesOption = (mods:
-        { lib, ... }:
-        { imports = lib.attrsets.attrValues mods; }
+        { default = { imports = builtins.attrValues mods; }; }
       );
     in
     {
