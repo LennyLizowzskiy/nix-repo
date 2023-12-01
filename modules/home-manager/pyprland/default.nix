@@ -34,29 +34,28 @@ in
       pkgs.pyprland
     ];
 
-    (mkIf cfg.systemd.enable {
-      systemd.user.services.pyprland = {
-        Unit = {
-          Description = "Autostart service for Pyprland";
-          Documentation = "https://github.com/hyprland-community/pyprland";
-          PartOf = [ "graphical-session.target" ];
-          After = [ "graphical-session-pre.target" ];
-        };
-
-        Service = {
-          ExecStart = "${pkgs.pyprland}/bin/pypr";
-          ExecReload = "${pkgs.coreutils}/bin/kill -SIGUSR2 $MAINPID";
-          Restart = "on-failure";
-          KillMode = "mixed";
-        };
-
-        Install = { 
-          WantedBy = [ 
-            "hyprland-session.target" 
-          ]; 
-        };
+    systemd.user.services.pyprland = mkIf cfg.systemd.enable {
+      Unit = {
+        Description = "Autostart service for Pyprland";
+        Documentation = "https://github.com/hyprland-community/pyprland";
+        PartOf = [ "graphical-session.target" ];
+        After = [ "graphical-session-pre.target" ];
       };
-    })
+
+      Service = {
+        ExecStart = "${pkgs.pyprland}/bin/pypr";
+        ExecReload = "${pkgs.coreutils}/bin/kill -SIGUSR2 $MAINPID";
+        Restart = "on-failure";
+        KillMode = "mixed";
+      };
+
+      Install = { 
+        WantedBy = [ 
+          "hyprland-session.target" 
+        ]; 
+      };
+    };
+    
 
     xdg.configHome = mkIf cfg.enable {
       "hypr/pyprland.toml" = {
