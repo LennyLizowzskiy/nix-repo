@@ -1,3 +1,3 @@
 final: prev:
 
-prev.callPackage ../pkgs {}
+final.callPackage ../pkgs {}
