@@ -27,7 +27,7 @@
       );
     in
     {
-      overlays = import ./overlays {};
+      overlays = import ./overlays;
 
       homeManagerModules = homeManagerModules // (mkDefaultModulesOption homeManagerModules);
       nixosModules = nixosModules // (mkDefaultModulesOption nixosModules);
