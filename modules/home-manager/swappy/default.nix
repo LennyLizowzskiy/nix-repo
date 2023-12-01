@@ -5,7 +5,7 @@ with lib;
 let
   cfg = config.programs.swappy;
 
-  generateConf = (attrs: (generators.toINI {} { Default = attrs; }))
+  generateConf = (attrs: (generators.toINI {} { Default = attrs; }));
 in
 {
   options = {

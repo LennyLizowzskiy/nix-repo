@@ -7,7 +7,7 @@ let
 
   generateNoHeadIni = (attrs: 
     (generators.toINIWithGlobalSection { mkSectionName = (name: "# ${name}") } { globalSection = attrs; })
-  )
+  );
 in
 {
   options = {
