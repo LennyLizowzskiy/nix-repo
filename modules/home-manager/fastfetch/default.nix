@@ -19,6 +19,10 @@ in
   };
 
   config = {
+    home.packages = mkIf cfg.enable [
+      pkgs.fastfetch
+    ];
+
     xdg.configFile = mkIf cfg.enable {
       "fastfetch/config.jsonc".source = builtins.toJSON cfg.settings;
     };
