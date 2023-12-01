@@ -62,29 +62,27 @@ in
       pkgs.hyprpaper
     ];
 
-    (mkIf cfg.systemd.enable {
-      systemd.user.services.hyprpaper = {
-        Unit = {
-          Description = "autostart service for Hyprpaper";
-          Documentation = "https://github.com/hyprwm/hyprpaper";
-          PartOf = [ "graphical-session.target" ];
-          After = [ "graphical-session-pre.target" ];
-        };
-
-        Service = {
-          ExecStart = "${pkgs.hyprpaper}/bin/hyprpaper";
-          ExecReload = "${pkgs.coreutils}/bin/kill -SIGUSR2 $MAINPID";
-          Restart = "on-failure";
-          KillMode = "mixed";
-        };
-
-        Install = { 
-          WantedBy = [ 
-            cfg.systemd.target 
-          ]; 
-        };
+    systemd.user.services.hyprpaper = mkIf cfg.systemd.enable {
+      Unit = {
+        Description = "autostart service for Hyprpaper";
+        Documentation = "https://github.com/hyprwm/hyprpaper";
+        PartOf = [ "graphical-session.target" ];
+        After = [ "graphical-session-pre.target" ];
       };
-    })
+
+      Service = {
+        ExecStart = "${pkgs.hyprpaper}/bin/hyprpaper";
+        ExecReload = "${pkgs.coreutils}/bin/kill -SIGUSR2 $MAINPID";
+        Restart = "on-failure";
+        KillMode = "mixed";
+      };
+
+      Install = { 
+        WantedBy = [ 
+          cfg.systemd.target 
+        ]; 
+      };
+    };
 
     xdg.configHome = mkIf cfg.enable {
       "hypr/hyprpaper.conf".text = ''
