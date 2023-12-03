@@ -4,11 +4,6 @@ with lib;
 
 let
   cfg = config.programs.hyprpaper;
-
-  wallpaperType = mkOptionType {
-    name = "hyprpaper wallpaper setting";
-    check = (as: (as ? "monitor") && (as ? "image"));
-  };
 in
 {
   options = {
@@ -39,7 +34,7 @@ in
         };
 
         wallpapers = mkOption {
-          type = listOf wallpaperType;
+          type = listOf str;
           default = [ ];
           description = ''
             Wallpaper to monitor mapper
