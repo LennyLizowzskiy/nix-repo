@@ -62,7 +62,7 @@ in
       Unit = {
         Description = "autostart service for Hyprpaper";
         Documentation = "https://github.com/hyprwm/hyprpaper";
-        PartOf = [ "graphical-session.target" ];
+        BindsTo = [ "graphical-session.target" ];
         After = [ "graphical-session-pre.target" ];
       };
 
