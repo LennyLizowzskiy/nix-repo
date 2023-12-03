@@ -43,7 +43,8 @@ in
       };
 
       Service = {
-        ExecStart = "${pkgs.pyprland}/bin/pypr";
+        # ExecStart = "${pkgs.pyprland}/bin/pypr";
+        ExecStart = "${pkgs.pyprland}/bin/pypr --debug /dev/null > /tmp/pypr_launch_log.txt 2>&1";
         ExecReload = "${pkgs.coreutils}/bin/kill -SIGUSR2 $MAINPID";
         Restart = "on-failure";
         KillMode = "mixed";
@@ -51,11 +52,10 @@ in
 
       Install = { 
         WantedBy = [ 
-          "hyprland-session.target" 
+          "graphical-session.target" 
         ]; 
       };
     };
-    
 
     xdg.configFile = mkIf cfg.enable {
       "hypr/pyprland.toml" = {
