@@ -88,7 +88,7 @@ in
         ${(lists.foldl (acc: v: acc + "preload = ${v}\n") "" cfg.settings.preload)}
 
         # hyprpaper.settings.wallpapers
-        ${(lists.foldl (acc: v: acc + "wallpaper = ${v.monitor},${v.image}\n") "" cfg.settings.wallpapers)}
+        ${(lists.foldl (acc: v: acc + "wallpaper = ${v}\n") "" cfg.settings.wallpapers)}
 
         # hyprpaper.settings.extraConfig
         ${cfg.settings.extraConfig}
