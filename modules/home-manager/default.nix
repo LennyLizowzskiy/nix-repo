@@ -6,4 +6,5 @@
   pyprland = ./pyprland;
   swappy = ./swappy;
   tofi = ./tofi;
+  youtube-music = ./youtube-music;
 }
