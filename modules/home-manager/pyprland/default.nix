@@ -14,6 +14,11 @@ in
 
       systemd.enable = mkEnableOption "Autostart service for Pyprland";
 
+      package = mkOption {
+        type = types.package;
+        default = pkgs.pyprland;
+      };
+
       settings = mkOption {
         type = types.attrs;
         description = "Check https://github.com/hyprland-community/pyprland/wiki/Getting-started#configuring for info";
@@ -29,9 +34,9 @@ in
     };
   };
 
-  config = {
-    home.packages = mkIf cfg.enable [
-      pkgs.pyprland
+  config = mkIf cfg.enable {
+    home.packages = [
+      cfg.package
     ];
 
     systemd.user.services.pyprland = mkIf cfg.systemd.enable {
@@ -57,7 +62,7 @@ in
       };
     };
 
-    xdg.configFile = mkIf cfg.enable {
+    xdg.configFile = {
       "hypr/pyprland.toml" = {
         source = tomlFormatter.generate "pyprland_config.toml" cfg.settings;
         onChange = ''
