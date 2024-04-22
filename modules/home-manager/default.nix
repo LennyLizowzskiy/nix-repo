@@ -5,6 +5,6 @@
   micro = ./micro;
   pyprland = ./pyprland;
   swappy = ./swappy;
-  tofi = ./tofi;
+  # tofi = ./tofi;
   youtube-music = ./youtube-music;
 }
