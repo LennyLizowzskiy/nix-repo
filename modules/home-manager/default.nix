@@ -1,5 +1,5 @@
 {
-  fastfetch = ./fastfetch;
+  # fastfetch = ./fastfetch;
   hyprpaper = ./hyprpaper;
   lite-xl = ./lite-xl;
   micro = ./micro;
