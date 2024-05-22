@@ -1,0 +1,11 @@
+[package]
+name = "unnamed"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+slint = { version = "1.6", default-features = false, features = [ "std", "compat-1-2", "backend-winit", "renderer-femtovg" ] }
+
+[build-dependencies]
+slint-build = "1.6"
