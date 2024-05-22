@@ -1,8 +1,10 @@
 {
+  description = "Starter template for Rust+Slint projects";
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-   
+
     crane = {
       url = "github:ipetkov/crane";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -15,20 +17,26 @@
     };
   };
 
-  outputs = { self, nixpkgs, crane, rust-overlay, flake-utils, ... }:
-    flake-utils.lib.eachSystem [ "x86_64-linux" ] (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      crane,
+      rust-overlay,
+      flake-utils,
+      ...
+    }:
+    flake-utils.lib.eachSystem [ "x86_64-linux" ] (
+      system:
       let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [
-            (import rust-overlay)
-          ];
+          overlays = [ (import rust-overlay) ];
         };
 
+        rustSrc = pkgs.rust-bin.stable.latest.rust-src;
         rustToolchain = pkgs.rust-bin.stable.latest.default.override {
-          targets = [
-            "x86_64-unknown-linux-gnu"
-          ];
+          targets = [ "x86_64-unknown-linux-gnu" ];
         };
 
         craneLib = (crane.mkLib pkgs).overrideToolchain rustToolchain;
@@ -38,10 +46,9 @@
           strictDeps = true;
 
           buildInputs =
-            [
-              stdenv.cc.cc.lib
-            ] ++ (lib.optionals stdenv.isDarwin) [
-              
+            [ stdenv.cc.cc.lib ]
+            ++ (lib.optionals stdenv.isDarwin) [
+
             ];
 
           LD_LIBRARY_PATH = "$LD_LIBRARY_PATH:${
@@ -54,28 +61,30 @@
           }";
         };
 
-        mainCrate = craneLib.buildPackage (commonArgs // {
-          cargoArtifacts = craneLib.buildDepsOnly commonArgs;
-        });
+        mainCrate = craneLib.buildPackage (
+          commonArgs // { cargoArtifacts = craneLib.buildDepsOnly commonArgs; }
+        );
       in
-        {
-          packages.default = mainCrate;
+      {
+        packages.default = mainCrate;
 
-          apps.default = flake-utils.lib.mkApp {
-            drv = mainCrate;
-          };
+        apps.default = flake-utils.lib.mkApp { drv = mainCrate; };
 
-          devShells.default =
-            craneLib.devShell.override {
-              stdenv = pkgs.stdenvAdapters.useMoldLinker pkgs.clangStdenv;
-            } {
-              checks = self.checks.${system};
+        devShells.default =
+          pkgs.mkShell.override { stdenv = pkgs.stdenvAdapters.useMoldLinker pkgs.clangStdenv; }
+            {
+              # checks = self.checks.${system};
 
               inherit (commonArgs) LD_LIBRARY_PATH;
-              RUST_SRC_PATH = rustToolchain.rust-src;
+              RUST_SRC_PATH = rustSrc;
 
-              packages = commonArgs.buildInputs;
+              packages =
+                commonArgs.buildInputs
+                ++ (with pkgs; [
+                  pkg-config
+                  openssl
+                ]);
             };
-        }
+      }
     );
 }
