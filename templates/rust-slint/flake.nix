@@ -83,6 +83,7 @@
                 ++ (with pkgs; [
                   pkg-config
                   openssl
+                  rustToolchain
                 ]);
             };
       }
