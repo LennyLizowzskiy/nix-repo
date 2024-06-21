@@ -1,6 +1,6 @@
 {
   # fastfetch = ./fastfetch;
-  hyprpaper = ./hyprpaper;
+  # hyprpaper = ./hyprpaper;
   lite-xl = ./lite-xl;
   micro = ./micro;
   pyprland = ./pyprland;
